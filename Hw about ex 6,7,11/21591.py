@@ -1,0 +1,28 @@
+from turtle import *
+
+screensize(3000, 3000)
+tracer(False)
+
+m = 5
+lt(90)
+rt(270)
+for i in range(2):
+    fd(8 * m)
+    rt(120)
+rt(120)
+for i in range(2):
+    rt(120)
+    fd(3)
+    rt(240)
+rt(240)
+for i in range(2):
+    fd(14 * m)
+    rt(120)
+up()
+
+for x in range(-35, 25):
+    for y in range(-10, 80):
+        goto(x*m, y*m)
+        dot(3, 'red')
+update()
+done()
