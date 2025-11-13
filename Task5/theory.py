@@ -46,3 +46,9 @@ num_hex = 'af8'
 print(int(num_bin, 2))
 print(int(num_tri, 3))
 print(int(num_hex, 16))
+# Срезы
+data = '123456789'
+# Извлечение первух двух символов
+print(data[:2])
+# Извлечение без первых двух символов
+print([2:])
